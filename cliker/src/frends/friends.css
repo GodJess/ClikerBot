@@ -1,0 +1,139 @@
+.block-leaders{
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .leadersLogo{
+    z-index: 1;
+    width: 80px;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    color: #EBEBEB;
+    margin-top: 30px;
+  }
+  .leadersLogo p{
+    z-index: 1;
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+    color:#EBEBEB;
+    font-family: "Neometric";
+  }
+  .img-referals{
+    width: 100%;
+    height: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .listOfliaderss{
+    z-index: 90;
+    width: 100%;
+    height: 200px;
+    overflow-y: auto;
+    scroll-snap-type: mandatory;
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .block-your-referals::-webkit-scrollbar {
+    width: 8px;
+    background-color: rgb(20, 19, 19);           
+  }
+  .block-your-referals::-webkit-scrollbar-thumb{
+    background-color: #EBEBEB;
+    border-radius: 5px;
+  }
+
+  .examps{
+    width: 92%;
+    z-index: 1;
+    min-width: 330px;
+    max-width: 330px;
+    display: flex;
+    color: white;
+    font-size: 18px;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  .examps:last-child{
+    margin-bottom: 0px;
+  }
+  .number{
+    width: 50px;
+  }
+  .yournumber{
+    width: 120px;
+  }
+
+.username{
+  width: 120px;
+}
+.usercount{
+  width: 120px;
+  text-align: end;
+}
+.yourplace-block{
+  display: flex;
+  width: 330px;
+  height: 20px;
+  font-size: 18px;
+  color: white;
+  border: 2px solid #EBEBEB;
+  padding: 5px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+.your-link{
+  display: flex;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  width: 326px; 
+  height: 40px;
+  border-radius: 5px;
+  border: solid 2px #EBEBEB;
+  text-decoration: none;
+  list-style: none;
+  color: #EBEBEB;
+  font-size: 20px;
+  transition: all 0.4s ease;
+}
+.WatchMore{
+  display: flex;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: #EBEBEB;
+  width: 330px; 
+  height: 40px;
+  border-radius: 5px;
+  /* border: solid 1px #bebebe; */
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-size: 20px;
+  transition: all 0.4s ease;
+}
+.WatchMore:hover{
+  background-color: black;
+  color: #EBEBEB;
+}
+.block-learn{
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
